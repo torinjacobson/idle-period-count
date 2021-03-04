@@ -2,7 +2,7 @@
   "name": "Idle Period Count",
   "apiVersion": "1.0.0",
   "author": "Mark Blackburn (Blackbeard Software)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Count idle periods in a signal",
   "extensions": {
     "Idle Search": {
@@ -12,6 +12,10 @@
         "idlePeriods": {
           "name": "Idle Periods",
           "notation": "N<sub>i"
+        },
+        "idleDuration": {
+          "name": "Idle Duration (us)",
+          "notation": "T<sub>idle"
         }
       }
     }
